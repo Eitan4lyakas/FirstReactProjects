@@ -1,0 +1,56 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.counter-page {
+  background-color: rgb(233, 214, 214);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-page .counter {
+  padding: 5%;
+  text-align: center;
+}
+
+.counter-page .counter .counter-text {
+  font-size: 50px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.counter-page .counter .counter-buttons {
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #292828;
+  background-color: #73d4b1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 0px 5px;
+}
+
+.counter-page .counter .counter-buttons:hover {
+  background-color: #60af92;
+}
+
+.counter-page .counter .counter-buttons:active {
+  background-color: #4c8b74;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
