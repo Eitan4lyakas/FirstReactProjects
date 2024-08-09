@@ -54,3 +54,48 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.Color-picker-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Color-picker-container .title {
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.Color-picker-container .Color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(131, 128, 128);
+  border-radius: 25px;
+  box-shadow: 2px 5px 2px gray;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.Color-picker-container .Color-display p {
+  color: rgb(51, 50, 50);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.selector-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.selector-color {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(202, 200, 200);
+}
