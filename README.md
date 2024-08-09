@@ -9,5 +9,6 @@ this Repository contains them.
 *To find every project- navigate into the "src" folder, than every project will have its own directory
 
 **This repository contains the following projects:**
+
 -Counter
 -Color picker
