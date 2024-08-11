@@ -99,3 +99,83 @@ body {
   border-radius: 10px;
   border: 3px solid rgb(202, 200, 200);
 }
+
+/*-------------------------------------------------------*/
+.ToDo-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #7cf8cd;
+}
+
+.ToDo-list-container .title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.ToDo-list-container .small-titles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  margin-bottom: 1%;
+  margin-right: 120px;
+  padding-left: 148px;
+}
+
+.ToDo-list-container .list {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.ToDo-list-container .list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #7a7979;
+}
+
+.ToDo-list-container .details {
+  flex: 1;
+  text-align: center;
+}
+
+.ToDo-list-container .inputButtons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ToDo-list-container .inputButtons input,
+.inputButtons button {
+  margin: 5px 0;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 2px rgb(88, 88, 88);
+}
+
+.ToDo-list-container .inputButtons button {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 700; /* Make sure this matches the available weight */
+  font-style: normal;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ToDo-list-container .inputButtons button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 1px 2px rgb(88, 88, 88);
+}
