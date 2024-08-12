@@ -58,7 +58,7 @@ function ToDoList(){
                         <p className="details">{task.creationDate}</p>  
                             <p className="details">{task.name}</p>  
                             <p className="details">{task.dueDate}</p>
-                        <input
+                        <input className="check-box-status"
                             type="checkbox" 
                             onChange={() => handleRemoveTask(index)} 
                         />
@@ -72,7 +72,7 @@ function ToDoList(){
                 <button onClick={handleAddTask}>Add task</button>
             </div>
             <div className="finished-tasks">
-                <h1>Finished tasks:</h1> 
+                <h1 className="title">Finished tasks:</h1> 
                 <ul className="Finished-list">
                     {finishedTasksList.map((finishedTask, index) => (
                         <li key={index}>

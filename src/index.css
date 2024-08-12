@@ -179,3 +179,26 @@ body {
   transform: translateY(5px);
   box-shadow: 0px 1px 2px rgb(88, 88, 88);
 }
+
+.ToDo-list-container .list .check-box-status{
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    padding: 3px;
+    border: 5px solid green;
+    border-radius: 50px;
+}
+
+.ToDo-list-container .list .check-box-status:hover{
+  background-color: green;
+}
+
+.ToDo-list-container .finished-tasks{
+  margin-right: 500px;
+  margin-top: 50px;
+}
+
+.ToDo-list-container .finished-tasks .title{
+  font-size: 40px;
+  margin-left: 100px;
+}
